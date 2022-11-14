@@ -11,7 +11,7 @@ public abstract class ITestSolution<I, O> {
         this.name = name;
     }
 
-    protected abstract O process(I input);
+    protected O process(I input) { return null; }
 
     protected abstract void allTests();
 

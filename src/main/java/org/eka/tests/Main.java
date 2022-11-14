@@ -20,5 +20,7 @@ public class Main {
         new org.eka.tests.other.mergesort.TestSolution().execute();
         new org.eka.tests.other.quicksort.TestSolution().execute();
         new org.eka.tests.other.heapsort.TestSolution().execute();
+        new org.eka.tests.other.stack.TestSolution().execute();
+        new org.eka.tests.other.queue.TestSolution().execute();
     }
 }
